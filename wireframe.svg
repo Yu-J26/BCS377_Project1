@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Junhui Yu portfolio desktop and mobile wireframe</title>
+  <desc id="desc">A computer-aided wireframe showing the portfolio's sidebar, home, about, projects, and contact sections on desktop, plus a stacked mobile layout.</desc>
+  <rect width="1200" height="760" fill="#f5f7fb"/>
+  <text x="48" y="48" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#17202b">Portfolio Wireframe</text>
+  <text x="48" y="75" font-family="Arial, sans-serif" font-size="13" fill="#657181">Structure and content hierarchy — not to scale</text>
+  <!-- Desktop view -->
+  <text x="48" y="118" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#17202b">DESKTOP</text>
+  <rect x="48" y="135" width="700" height="570" rx="10" fill="#fff" stroke="#cbd3df" stroke-width="2"/>
+  <rect x="48" y="135" width="155" height="570" rx="10" fill="#edf1f7"/>
+  <path d="M193 135H203V705H193" fill="#edf1f7"/>
+  <rect x="66" y="158" width="33" height="33" rx="7" fill="#17202b"/>
+  <text x="82.5" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#fff">JY</text>
+  <rect x="108" y="161" width="72" height="8" rx="4" fill="#7a8798"/>
+  <rect x="108" y="176" width="56" height="5" rx="2.5" fill="#b4bdca"/>
+  <text x="67" y="226" font-family="Arial, sans-serif" font-size="10" font-weight="700" letter-spacing="1" fill="#8b96a5">MENU</text>
+  <g font-family="Arial, sans-serif" font-size="12" fill="#586577">
+    <rect x="62" y="241" width="126" height="33" rx="5" fill="#dce6ff"/>
+    <text x="78" y="262" fill="#285dd3" font-weight="700">Home</text>
+    <text x="78" y="300">About</text><text x="78" y="338">Projects</text><text x="78" y="376">Contact</text>
+  </g>
+  <line x1="222" y1="135" x2="222" y2="705" stroke="#e4e8ee"/>
+  <!-- Home -->
+  <rect x="245" y="158" width="475" height="105" rx="6" fill="#f8fafc" stroke="#d8dee8"/>
+  <rect x="264" y="177" width="185" height="8" rx="4" fill="#b4bdca"/>
+  <rect x="264" y="194" width="250" height="15" rx="4" fill="#17202b"/>
+  <rect x="264" y="216" width="225" height="6" rx="3" fill="#c0c8d3"/>
+  <rect x="264" y="232" width="97" height="18" rx="4" fill="#356df3"/>
+  <rect x="369" y="232" width="94" height="18" rx="4" fill="#e9edf4" stroke="#cbd3df"/>
+  <text x="482" y="246" font-family="Arial, sans-serif" font-size="10" fill="#657181">HOME + RESUME CTA</text>
+  <!-- About -->
+  <rect x="245" y="277" width="475" height="105" rx="6" fill="#fff" stroke="#d8dee8"/>
+  <text x="263" y="299" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#17202b">ABOUT</text>
+  <rect x="263" y="311" width="191" height="53" rx="4" fill="#f5f7fb" stroke="#e1e6ee"/>
+  <rect x="275" y="323" width="156" height="5" rx="2" fill="#bac3d0"/><rect x="275" y="335" width="143" height="5" rx="2" fill="#bac3d0"/><rect x="275" y="347" width="129" height="5" rx="2" fill="#bac3d0"/>
+  <rect x="466" y="311" width="236" height="53" rx="4" fill="#f5f7fb" stroke="#e1e6ee"/>
+  <rect x="480" y="321" width="206" height="7" rx="3" fill="#98a7ba"/><rect x="480" y="336" width="182" height="5" rx="2" fill="#c0c8d3"/><rect x="480" y="348" width="194" height="5" rx="2" fill="#c0c8d3"/>
+  <!-- Projects -->
+  <rect x="245" y="396" width="475" height="157" rx="6" fill="#fff" stroke="#d8dee8"/>
+  <text x="263" y="418" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#17202b">PROJECTS</text>
+  <rect x="263" y="430" width="215" height="105" rx="5" fill="#edf2fb" stroke="#cbd6e7"/>
+  <rect x="489" y="430" width="213" height="105" rx="5" fill="#edf2fb" stroke="#cbd6e7"/>
+  <rect x="274" y="440" width="193" height="47" rx="3" fill="#dce5f2" stroke="#c1cede"/><text x="370" y="467" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#586577">SCREENSHOT</text>
+  <rect x="500" y="440" width="191" height="47" rx="3" fill="#dce5f2" stroke="#c1cede"/><text x="595" y="467" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#586577">SCREENSHOT</text>
+  <rect x="275" y="496" width="118" height="6" rx="3" fill="#7a8798"/><rect x="275" y="509" width="168" height="4" rx="2" fill="#bac3d0"/><rect x="500" y="496" width="140" height="6" rx="3" fill="#7a8798"/><rect x="500" y="509" width="162" height="4" rx="2" fill="#bac3d0"/>
+  <!-- Contact -->
+  <rect x="245" y="567" width="475" height="116" rx="6" fill="#fff" stroke="#d8dee8"/>
+  <text x="263" y="589" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#17202b">CONTACT</text>
+  <rect x="263" y="601" width="158" height="66" rx="4" fill="#f5f7fb" stroke="#e1e6ee"/><rect x="276" y="615" width="122" height="6" rx="3" fill="#98a7ba"/><rect x="276" y="630" width="93" height="5" rx="2" fill="#c0c8d3"/>
+  <rect x="433" y="601" width="269" height="66" rx="4" fill="#f5f7fb" stroke="#e1e6ee"/><rect x="444" y="610" width="111" height="14" rx="3" fill="#fff" stroke="#cbd3df"/><rect x="562" y="610" width="128" height="14" rx="3" fill="#fff" stroke="#cbd3df"/><rect x="444" y="630" width="246" height="18" rx="3" fill="#fff" stroke="#cbd3df"/><rect x="444" y="652" width="76" height="10" rx="3" fill="#356df3"/>
+  <!-- Mobile view -->
+  <text x="800" y="118" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#17202b">MOBILE</text>
+  <rect x="800" y="135" width="350" height="570" rx="24" fill="#fff" stroke="#aeb9c8" stroke-width="2"/>
+  <rect x="817" y="151" width="316" height="40" rx="7" fill="#f4f6fa"/>
+  <rect x="831" y="163" width="76" height="6" rx="3" fill="#7a8798"/>
+  <rect x="831" y="174" width="94" height="4" rx="2" fill="#c0c8d3"/>
+  <rect x="1060" y="159" width="31" height="25" rx="4" fill="#e5eaf2" stroke="#cbd3df"/><rect x="1097" y="159" width="24" height="25" rx="4" fill="#e5eaf2" stroke="#cbd3df"/>
+  <rect x="817" y="201" width="316" height="89" rx="7" fill="#f8fafc" stroke="#d8dee8"/>
+  <rect x="832" y="215" width="120" height="6" rx="3" fill="#b4bdca"/><rect x="832" y="229" width="209" height="12" rx="3" fill="#17202b"/><rect x="832" y="247" width="237" height="5" rx="2" fill="#c0c8d3"/><rect x="832" y="261" width="104" height="17" rx="4" fill="#356df3"/>
+  <rect x="817" y="300" width="316" height="87" rx="7" fill="#fff" stroke="#d8dee8"/><text x="832" y="320" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#17202b">ABOUT + SKILLS</text><rect x="832" y="330" width="282" height="5" rx="2" fill="#c0c8d3"/><rect x="832" y="342" width="259" height="5" rx="2" fill="#c0c8d3"/><rect x="832" y="354" width="275" height="5" rx="2" fill="#c0c8d3"/><rect x="832" y="367" width="186" height="9" rx="3" fill="#e3e9f3"/>
+  <rect x="817" y="397" width="316" height="142" rx="7" fill="#fff" stroke="#d8dee8"/><text x="832" y="417" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#17202b">PROJECTS — STACKED CARDS</text><rect x="832" y="428" width="286" height="44" rx="4" fill="#dce5f2" stroke="#c1cede"/><text x="975" y="454" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#586577">Steam Builder image</text><rect x="832" y="480" width="165" height="5" rx="2" fill="#7a8798"/><rect x="832" y="491" width="267" height="4" rx="2" fill="#c0c8d3"/><rect x="832" y="503" width="286" height="24" rx="4" fill="#dce5f2" stroke="#c1cede"/><text x="975" y="518" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#586577">Quiz App image</text>
+  <rect x="817" y="549" width="316" height="134" rx="7" fill="#fff" stroke="#d8dee8"/><text x="832" y="569" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#17202b">CONTACT</text><rect x="832" y="580" width="286" height="15" rx="3" fill="#f7f9fc" stroke="#cbd3df"/><rect x="832" y="602" width="286" height="15" rx="3" fill="#f7f9fc" stroke="#cbd3df"/><rect x="832" y="624" width="286" height="28" rx="3" fill="#f7f9fc" stroke="#cbd3df"/><rect x="832" y="660" width="83" height="12" rx="3" fill="#356df3"/>
+  <text x="48" y="738" font-family="Arial, sans-serif" font-size="10" fill="#7a8798">Junhui Yu (Kevin) — Personal Portfolio Website</text>
+</svg>
