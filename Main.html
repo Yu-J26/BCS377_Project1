@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Junhui Yu's portfolio showcasing IT skills, projects, and professional background.">
+  <title>Junhui Yu | IT Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#home">Skip to content</a>
+
+<button class="menu-toggle" id="menuToggle" type="button" aria-label="Open navigation menu" aria-controls="sidebar" aria-expanded="false">
+  <span></span>
+  <span></span>
+  <span></span>
+</button>
+
+<button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch to dark mode" aria-pressed="false">
+  <span class="theme-icon" aria-hidden="true">☾</span>
+  <span class="theme-label">Dark mode</span>
+</button>
+
+<aside class="sidebar" id="sidebar">
+  <div class="sidebar-label">MENU</div>
+  <nav class="navigation" aria-label="Main navigation">
+    <a href="#home" class="nav-link active"><span class="nav-icon" aria-hidden="true">⌂</span>Home</a>
+    <a href="#about" class="nav-link"><span class="nav-icon" aria-hidden="true">◉</span>About</a>
+    <a href="#projects" class="nav-link"><span class="nav-icon" aria-hidden="true">▧</span>Projects</a>
+    <a href="#contact" class="nav-link"><span class="nav-icon" aria-hidden="true">✉</span>Contact</a>
+  </nav>
+
+  <div class="sidebar-bottom">
+    <p class="sidebar-label">LET'S CONNECT</p>
+    <a href="https://github.com/Yu-J26" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+    <a href="https://www.linkedin.com/in/junhuiyu" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+    <a href="mailto:junhuiyu825@gmail.com">Email <span aria-hidden="true">↗</span></a>
+  </div>
+</aside>
+
+<main class="main-content">
+  <section id="home" class="section hero-section" aria-labelledby="hero-title">
+    <div class="hero-copy">
+      <h1 id="hero-title">Hello my name is<br><span>Junhui Yu (Kevin)</span></h1>
+      <p class="hero-description">An aspiring IT professional with a foundation in programming, systems administration, and networking.</p>
+      <div class="hero-buttons">
+        <a href="#projects" class="button primary-button">Explore my work <span aria-hidden="true">↗</span></a>
+        <a href="Junhui%20Yu%20Resume.pdf" class="button secondary-button" download="Junhui-Yu-Resume.pdf" aria-label="Download Junhui Yu resume as a PDF">Download resume <span aria-hidden="true">↓</span></a>
+      </div>
+    </div>
+    <a class="scroll-cue" href="#about"><span class="scroll-line"></span>SCROLL TO EXPLORE</a>
+  </section>
+
+  <section id="about" class="section content-section" aria-labelledby="about-title">
+    <div class="section-heading">
+      <p class="eyebrow">A LITTLE ABOUT ME</p>
+      <h2 id="about-title">A <span>problem-solver</span><br>who likes to keep learning.</h2>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-text">
+        <p class="lead">I'm Junhui Yu (Kevin), a Computer Science and Information Systems student interested in IT support, systems, networking, and building practical software solutions.</p>
+        <p>I enjoy solving technical problems, learning new tools quickly, and building practical projects that turn ideas into working solutions. I'm seeking an entry-level IT role where I can contribute, grow, and continue developing my technical skills.</p>
+        <a class="text-link" href="#contact">Let's connect <span aria-hidden="true">→</span></a>
+      </div>
+
+      <div class="skills-panel">
+        <div class="panel-heading">
+          <h3>Technical skills</h3>
+        </div>
+        <div class="skill-row">
+          <span class="skill-number">01</span>
+          <div>
+            <h4>Programming &amp; Web</h4>
+            <p>Java, JavaScript, HTML, CSS, SQL, PHP</p>
+          </div>
+        </div>
+        <div class="skill-row">
+          <span class="skill-number">02</span>
+          <div>
+            <h4>Desktop Applications</h4>
+            <p>JavaFX, FXML, CSS, Maven, jpackage</p>
+          </div>
+        </div>
+        <div class="skill-row">
+          <span class="skill-number">03</span>
+          <div>
+            <h4>Databases &amp; Cloud</h4>
+            <p>MySQL, Firebase, Google Cloud Firestore</p>
+          </div>
+        </div>
+        <div class="skill-row">
+          <span class="skill-number">04</span>
+          <div>
+            <h4>IT Systems &amp; Networking</h4>
+            <p>Windows, Ubuntu Linux, hardware/software troubleshooting, networking fundamentals</p>
+          </div>
+        </div>
+        <div class="skill-row">
+          <span class="skill-number">05</span>
+          <div>
+            <h4>Tools &amp; Workflow</h4>
+            <p>Git, GitHub, VS Code, VirtualBox, Microsoft 365</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section content-section projects-section" aria-labelledby="projects-title">
+    <div class="section-heading section-heading-row">
+      <div>
+        <p class="eyebrow">Projects</p>
+        <h2 id="projects-title"><span>Projects</span></h2>
+      </div>
+    </div>
+
+    <div class="project-grid">
+      <article class="project-card">
+        <div class="project-art">
+          <img class="project-screenshot" src="./SteamBuilder.PNG" alt="Screenshot of the Steam Builder desktop application">
+        </div>
+        <div class="project-info">
+          <div class="project-title-row">
+            <div>
+              <p class="project-type">01 / DESKTOP APPLICATION / JAVA DESKTOP APP</p>
+              <h3>Steam Builder</h3>
+            </div>
+            <a class="project-arrow" href="https://github.com/LoganARay/CSC325-Capstone" target="_blank" rel="noopener noreferrer" aria-label="View Steam Builder on GitHub">↗</a>
+          </div>
+          <p>A JavaFX desktop application that helps users plan gaming PCs around the Steam games they want to play. The app brings game requirements and component planning into one workflow, making it easier to compare a potential build against a game's hardware needs.</p>
+          <ul class="project-feature-list">
+            <li>Search Steam games and review minimum and recommended specifications.</li>
+            <li>Generate PC build suggestions and check component compatibility.</li>
+            <li>Use AI-assisted build analysis to review build choices.</li>
+            <li>Use Firebase and Cloud Firestore for app data, Maven for builds, Git/GitHub for version control, and jpackage to package a Windows executable.</li>
+          </ul>
+          <div class="tag-list">
+            <span>Java</span>
+            <span>JavaFX</span>
+            <span>FXML</span>
+            <span>CSS</span>
+            <span>Maven</span>
+            <span>Firebase</span>
+            <span>Firestore</span>
+            <span>Git</span>
+            <span>jpackage</span>
+          </div>
+          <a class="text-link" href="https://github.com/LoganARay/CSC325-Capstone" target="_blank" rel="noopener noreferrer">View on GitHub <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-art">
+          <img class="project-screenshot" src="./QuizzApp.PNG" alt="Screenshot of the Client-Server Quiz Application">
+        </div>
+        <div class="project-info">
+          <div class="project-title-row">
+            <div>
+              <p class="project-type">02 / CLIENT-SERVER APPLICATION / FULL-STACK WEB</p>
+              <h3>Client-Server Quiz Application</h3>
+            </div>
+            <a class="project-arrow" href="https://github.com/Yu-J26/quiz-app" target="_blank" rel="noopener noreferrer" aria-label="View Quiz Application on GitHub">↗</a>
+          </div>
+          <p>A web-based, 10-question quiz that connects a browser interface to a PHP server and MySQL database. The project demonstrates how the client, server-side logic, and persistent user records work together.</p>
+          <ul class="project-feature-list">
+            <li>Provides account signup and login.</li>
+            <li>Selects questions and manages quiz timing on the server.</li>
+            <li>Processes quiz scores and saves user results in MySQL.</li>
+            <li>Uses the server to deliver the application's static files.</li>
+          </ul>
+          <div class="tag-list">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>PHP</span>
+            <span>MySQL</span>
+          </div>
+          <a class="text-link" href="https://github.com/Yu-J26/quiz-app" target="_blank" rel="noopener noreferrer">View on GitHub <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="contact" class="section content-section contact-section" aria-labelledby="contact-title">
+    <div class="contact-top">
+      <div class="section-heading">
+        <p class="eyebrow">GET IN TOUCH</p>
+        <h2 id="contact-title">Have an opportunity<br>or idea? <span>Let's talk.</span></h2>
+      </div>
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-details">
+        <p class="contact-label">CONTACT DETAILS</p>
+        <a class="email-link" href="mailto:junhuiyu825@gmail.com">junhuiyu825@gmail.com <span aria-hidden="true">↗</span></a>
+        <div class="contact-socials">
+          <a href="https://github.com/Yu-J26" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/junhuiyu" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+        </div>
+      </div>
+
+      <form id="contactForm" class="contact-form" novalidate>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Your name <span>*</span></label>
+            <input id="name" name="name" type="text" autocomplete="name" placeholder="Name" required>
+            <small class="error-message" id="nameError"></small>
+          </div>
+          <div class="form-group">
+            <label for="email">Email address <span>*</span></label>
+            <input id="email" name="email" type="email" autocomplete="email" placeholder="Email Address" required>
+            <small class="error-message" id="emailError"></small>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="reason">Reason for reaching out <span>*</span></label>
+          <select id="reason" name="reason" required>
+            <option value="">Choose a topic</option>
+            <option value="Job opportunity">Job opportunity</option>
+            <option value="Internship">Internship</option>
+            <option value="Project collaboration">Project collaboration</option>
+            <option value="General question">General question</option>
+          </select>
+          <small class="error-message" id="reasonError"></small>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message <span>*</span></label>
+          <textarea id="message" name="message" rows="4" placeholder="Message" required></textarea>
+          <small class="error-message" id="messageError"></small>
+        </div>
+
+        <button type="submit" class="button primary-button submit-button">Send Message <span aria-hidden="true">↗</span></button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <a class="footer-brand" href="#home">JY<span>.</span></a>
+    <p>Designed &amp; built by Junhui Yu</p>
+    <a href="#home">Back to top ↑</a>
+    <span class="footer-year">© <span id="currentYear"></span></span>
+  </footer>
+</main>
+</body>
+</html>
